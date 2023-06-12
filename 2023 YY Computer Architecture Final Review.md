@@ -232,10 +232,8 @@ add $rd $rs $rt
        電腦剛開，就沒辦法
     2. Conflict 
        跟別人的address撞到
-       解法: 增加cache size / 增加associativity
     3. Capacity 
        容量太小
-       解法: 增加cache size
     4. Invalidation 
        其他core或thread改到記憶體，讓cache變invalid
 
